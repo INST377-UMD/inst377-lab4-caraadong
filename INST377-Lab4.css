@@ -1,0 +1,29 @@
+body{
+    background-color:powderblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.section{
+    border: 2px solid white;
+    background-color:darkslateblue;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+}
+
+button{
+    background-color:aliceblue;
+    color:darkslateblue;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:dimgray
+}
+
+h1 {
+    margin-bottom: 40px;
+}
