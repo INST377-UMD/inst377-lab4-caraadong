@@ -3,4 +3,4 @@
 
 # Name: Cara Dong
 
-# Comments: 
+# Comments: The 'change color' button does not work on the initial click. Works continuously after the inital click.
