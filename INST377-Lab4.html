@@ -1,40 +1,52 @@
 <html>
     <head>
-        <title> INST 377 - Lab 4 </title>
-        <link rel = "stylesheet" href = "INST377-Lab4.css">
+        <title>INST 377 - Lab 4</title>
+        <link rel="stylesheet" href="INST377-Lab4.css">
     </head>
 
-    <body id = "body">
-        <h1 id = "mainHeading"> INST377 - Lab 4 </h1>
+    <body id="body">
+        <h1 id="mainHeading">INST377 - Lab 4</h1>
 
-        <!-- Alert Me Section -->
-        <div class = "section">
-            <form id = "alertForm">
-                <label for = "name"> Name: </label>
-                <input type = "text" name = "name" id = "contact-name" required>
-                <button type = "button" onclick = "alertMe()"> Alert Me! </button>
-            </form>
+        <div class="container">
+            <!-- Main Section -->
+            <main>
+                <!-- Alert Me Section -->
+                <div class="section">
+                    <form>
+                        <div class="form-group">
+                            <label for="nameInput">Name:</label>
+                            <input type="text" id="nameInput" required>
+                            <button type="button" onclick="alertMe()">Alert Me!</button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Text Tester Section -->
+                <div class="section">
+                    <form id="textForm"> 
+                        <div class="form-group">
+                            <label for="textInput">Text Tester:</label>
+                            <input type="text" id="textInput">
+                            <button type="button" onclick="validateText()">Validate Text</button>
+                        </div>
+                    </form>
+                </div>
+            </main>
+
+            <!-- Aside Section -->
+            <aside>
+                <!-- Change Color Section -->
+                <div class="section">
+                    <button id="colorButton" onclick="changeColor()">Change Color</button>
+                </div>
+
+                <!-- Add Text Section -->
+                <div class="section">
+                    <button id="addTextButton" onclick="addText()">Add Text</button>
+                </div>
+            </aside>
         </div>
 
-        <!-- Change Color Section -->
-        <div class = "section">
-            <button id = "colorButton" onclick = "changeColor()"> Change Color </button>
-        </div>
-
-        <!-- Text tester Section -->
-        <div class = "section">
-            <form id = "textForm"> 
-                <label for = "textInput"> Text Tester: </label>
-                <input type = "text" id = "textInput">
-                <button type = "button" onclick = "validateText()"> Validate Text </button>
-            </form>
-        </div>
-
-        <!-- Add Text Section -->
-        <div class = "section">
-            <button id = "addTextButton" onclick = "addText()"> Add Text </button>
-        </div>
-
-        <script src = "INST377-Lab4.js"> </script>
+        <script src="INST377-Lab4.js"></script>
     </body>
 </html>
