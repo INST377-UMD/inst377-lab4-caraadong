@@ -33,5 +33,5 @@ function validateText() {
 // Add Text
 function addText() {
     var heading = document.getElementById("mainHeading");
-    heading.innerHTML +=" - Adding Text"
+    heading.innerHTML +=" - Add Text"
 }
